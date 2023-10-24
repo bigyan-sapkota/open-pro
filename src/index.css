@@ -9,3 +9,9 @@ body {
 .sec {
   padding-inline: 2rem;
 }
+
+@media screen and (max-width: 300px) {
+  .sec {
+    padding: 10px;
+  }
+}
