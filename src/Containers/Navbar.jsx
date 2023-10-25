@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { logo } from "../assets/images";
 import { FiMenu } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
-import Signinout from "./SignInOut";
+import Signinout from "../Components/SignInOut";
 
 const Navbar = () => {
   const [showButton, setShowButton] = useState(false);
