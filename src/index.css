@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,4 +19,8 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent; /* Hide the original text color */
+}
+
+.ad {
+  font-family: "Architects Daughter", cursive;
 }

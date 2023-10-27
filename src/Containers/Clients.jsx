@@ -17,7 +17,7 @@ const clientItems = [
 
 const Clients = () => {
   return (
-    <div className="py-20 px-30">
+    <div className="py-12 md:py-20 px-30">
       <HeaderText
         head="The majority of our customers do not understand their workflows."
         text="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
