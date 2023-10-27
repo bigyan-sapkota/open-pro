@@ -17,7 +17,7 @@ const Products = () => {
         <div className="bg-gray-800 w-5/6 h-[1px]"></div>
       </div>
       <div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center mb-4">
           <p className="bg-[#BBF7D0] font-semibold text-[#16A368] text-center w-fit px-4 py-1 rounded-xl text-sm">
             Reach goals that matter
           </p>
@@ -29,19 +29,23 @@ const Products = () => {
         <div className="mt-10">
           {images.map((item, i) => (
             <div key={i}>
-              <div className="flex flex-col md:flex-row">
-                <div className="px-3 md:w-3/5">
+              <div
+                className={`flex ${
+                  i % 2 === 0 ? "md:flex-row-reverse" : "md:flex-row"
+                } flex-col  mt-16 md:px-20`}
+              >
+                <div className="px-3 md:w-4/5 mb-6">
                   <img src={item} alt="" />
                 </div>
-                <div className="md:flex flex-col items-center justify-center p-3 md:p-16">
-                  <div>
+                <div className="md:flex flex-col items-center justify-center px-3 md:px-16">
+                  <div className="flex flex-col justify-center">
                     <p className="ad text-[#2840FF] text-lg">
                       More speed. Less spend
                     </p>
                     <h1 className="text-white text-[35px] leading-none font-bold text-left md:leading-[61px] my-2">
                       Keep projects on schedule
                     </h1>
-                    <p className="text-gray-400 text-xl font-normal text-left">
+                    <p className="text-gray-400 text-lg font-normal text-left">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua.
@@ -52,7 +56,7 @@ const Products = () => {
                           <div>
                             <TiTick className="text-[#20AA53] text-xl" />
                           </div>
-                          <p className="text-gray-400 text-xl">{listItem}</p>
+                          <p className="text-gray-400 text-lg">{listItem}</p>
                         </div>
                       ))}
                     </div>
