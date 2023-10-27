@@ -9,7 +9,9 @@ const App = () => {
     <div className="md:px-7">
       <Navbar />
       <Home />
-      <Clients />
+      <div className="md:px-10">
+        <Clients />
+      </div>
     </div>
   );
 };
