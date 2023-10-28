@@ -4,6 +4,7 @@ import "./index.css";
 import Home from "./Containers/Home";
 import Clients from "./Containers/Clients";
 import Products from "./Containers/Products";
+import UserReview from "./Containers/UserReview";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Clients />
       </div>
       <Products />
+      <UserReview />
     </div>
   );
 };
