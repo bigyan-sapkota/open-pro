@@ -11,12 +11,34 @@ const data = [
   },
   {
     category: "Company",
-    items: ["Consectetur adipiscing", "Labore et dolore"],
+    items: [
+      "Consectetur adipiscing",
+      "Labore et dolore",
+      "Consectetur adipiscing",
+      "Labore et dolore",
+      "Consectetur adipiscing",
+      "Labore et dolore",
+    ],
   },
 ];
 
 const FooterNavigation = () => {
-  return <div></div>;
+  return (
+    <div>
+      <div>
+        {data.map((dataItems, i) => (
+          <div key={i}>
+            <p className="text-white">{dataItems.category}</p>
+            <div>
+              {dataItems.items.map((item, j) => (
+                <div key={j}>{item}</div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 };
 
 export default FooterNavigation;

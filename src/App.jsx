@@ -6,6 +6,7 @@ import Clients from "./Containers/Clients";
 import Products from "./Containers/Products";
 import UserReview from "./Containers/UserReview";
 import Contact from "./Containers/Contact";
+import Footer from "./Containers/Footer";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Products />
       <UserReview />
       <Contact />
+      <Footer />
     </div>
   );
 };
