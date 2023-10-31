@@ -7,14 +7,6 @@ import Signinout from "../Components/SignInOut";
 const Navbar = () => {
   const [showButton, setShowButton] = useState(false);
 
-  const [deviceSize, setDeviceSize] = useState();
-
-  const resizeHandler = () => {
-    setDeviceSize(window.innerWidth);
-    if (deviceSize >= 768) {
-      setShowButton(true);
-    }
-  };
   return (
     <div className="relative">
       <div className="flex items-center justify-between">
