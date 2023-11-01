@@ -25,15 +25,15 @@ const data = [
 const FooterNavigation = () => {
   return (
     <div>
-      <div>
+      <div className="flex flex-col md:flex-row md:gap-14">
         {data.map((dataItems, i) => (
           <div key={i}>
             <p className="text-gray-200 text-base">{dataItems.category}</p>
-            <div className="flex flex-col md:flex-row mb-6">
+            <div className="mb-6">
               {dataItems.items.map((item, j) => (
                 <div
                   key={j}
-                  className="text-[15px] text-gray-400 cursor-pointer hover:text-gray-200 mb-0.5"
+                  className="text-[15px] text-gray-400 cursor-pointer hover:text-gray-200 my-0.5"
                 >
                   {item}
                 </div>
