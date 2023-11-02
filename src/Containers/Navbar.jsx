@@ -32,6 +32,10 @@ const Navbar = () => {
             <div className="absolute top-12 right-4 md:static">
               {showButton && <Signinout />}
             </div>
+
+            <div className="hidden md:block">
+              <Signinout />
+            </div>
           </div>
         </div>
       </div>
