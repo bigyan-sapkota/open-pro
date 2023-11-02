@@ -13,9 +13,7 @@ const App = () => {
     <div className="md:px-7">
       <Navbar />
       <Home />
-      <div className="md:px-10">
-        <Clients />
-      </div>
+      <Clients />
       <Products />
       <UserReview />
       <Contact />
