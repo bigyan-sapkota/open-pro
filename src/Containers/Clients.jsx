@@ -36,7 +36,7 @@ const Clients = () => {
               <h3 className="text-2xl text-white font-bold">
                 Instant Features
               </h3>
-              <p className="text-gray-400 text-[19px] text-lg font-normal text-center w-64">
+              <p className="text-gray-400 text-[19px] text-lg font-normal text-center max-w-xs">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                 cupidatat.
