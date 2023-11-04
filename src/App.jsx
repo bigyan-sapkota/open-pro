@@ -10,7 +10,7 @@ import Footer from "./Containers/Footer";
 
 const App = () => {
   return (
-    <div className="px-2 md:px-7">
+    <div className="md:px-7">
       <Navbar />
       <Home />
       <Clients />

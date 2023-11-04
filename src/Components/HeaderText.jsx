@@ -4,7 +4,7 @@ const HeaderText = (props) => {
   return (
     <div>
       <div className="flex items-center justify-center">
-        <h1 className="text-white purple-gradient text-[40px] leading-none font-extrabold text-center md:text-5xl md:leading-[61px] px-3 max-w-4xl">
+        <h1 className="purple-gradient text-[32px] md:text-[40px] leading-none font-extrabold text-center md:text-5xl md:leading-[61px] px-3 max-w-4xl">
           {props.head}
         </h1>
       </div>

@@ -5,10 +5,8 @@ import { FaPlay } from "react-icons/fa";
 import HeaderText from "../Components/HeaderText";
 
 const Home = () => {
-  const [showVideo, setShowVideo] = useState(false);
-
   return (
-    <div className="px-4 mt-10">
+    <div className="px-1 md:px-4 mt-10">
       <div className="md:px-20">
         <div className="mt-5">
           <HeaderText

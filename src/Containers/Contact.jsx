@@ -18,7 +18,7 @@ const Contact = () => {
               <input
                 type="text"
                 placeholder="Your best email..."
-                className="mt-3 md:mt-0 w-full text-gray-400 bg-[#4B4ACF] text-left text-lg py-1.5 md:py-2 md:pr-24 px-4 border-[1px] border-[#8D8DFF]"
+                className="mt-3 md:mt-0 w-full text-gray-400 bg-[#4B4ACF] text-left text-lg py-1.5 md:py-2 md:pr-24 px-4 border-[1px] border-[#8D8DFF] focus:outline-none"
               />
               <input
                 type="submit"

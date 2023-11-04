@@ -17,7 +17,7 @@ const clientItems = [
 
 const Clients = () => {
   return (
-    <div className="px-4 mt-10">
+    <div className="px-1 md:px-4 mt-10">
       <div className="md:px-20">
         <HeaderText
           head="The majority of our customers do not understand their workflows."
