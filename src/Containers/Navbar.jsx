@@ -8,7 +8,7 @@ const Navbar = () => {
   const [showButton, setShowButton] = useState(false);
 
   return (
-    <div className="relative">
+    <div className="relative px-3 lg:px-10">
       <div className="flex items-center justify-between">
         <div className="w-22">
           <img src={logo} className="w-16 mt-2" />

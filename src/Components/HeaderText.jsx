@@ -10,7 +10,7 @@ const HeaderText = (props) => {
       </div>
 
       <div className="flex items-center justify-center">
-        <p className="text-gray-400 text-xl font-normal text-center mt-5 px-4 max-w-5xl">
+        <p className="text-gray-400 text-xl font-normal text-center mt-5 px-4 max-w-4xl">
           {props.text}
         </p>
       </div>
